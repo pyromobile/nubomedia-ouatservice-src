@@ -1,0 +1,18 @@
+{
+   "kms": {
+      "uris": ["ws://10.0.9.26:8888/kurento"]
+   },
+   "app": {
+      "uri": "https://localhost:8443/"
+   },
+   "kurento": {
+      "client": {
+         //milliseconds
+         "requestTimeout": 20000
+      }
+   },
+   "demo": {
+      "authRegex": ".*",
+      "kmsLimit": 1000
+   }
+}
